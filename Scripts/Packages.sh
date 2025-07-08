@@ -45,7 +45,7 @@ UPDATE_PACKAGE() {
 # UPDATE_PACKAGE "open-app-filter" "destan19/OpenAppFilter" "master" "" "luci-app-appfilter oaf" 这样会把原有的open-app-filter，luci-app-appfilter，oaf相关组件删除，不会出现coremark错误。
 
 # UPDATE_PACKAGE "包名" "项目地址" "项目分支" "pkg/name，可选，pkg为从大杂烩中单独提取包名插件；name为重命名为包名"
-#UPDATE_PACKAGE "nps" "feifan1113/luci-app-nps" "main"
+UPDATE_PACKAGE "nps" "feifan1113/luci-app-nps" "main"
 UPDATE_PACKAGE "npc" "yufan6663/luci-app-npc" "main"
 
 UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-24.10"
@@ -72,7 +72,7 @@ UPDATE_PACKAGE "partexp" "sirpdboy/luci-app-partexp" "main"
 UPDATE_PACKAGE "qbittorrent" "sbwml/luci-app-qbittorrent" "master" "" "qt6base qt6tools rblibtorrent"
 UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
-UPDATE_PACKAGE "kwrt" "kiddin9/kwrt-packages" "main" "" "luci-app-dockerman luci-app-ddnsto nps luci-app-nps"
+#UPDATE_PACKAGE "kwrt" "kiddin9/kwrt-packages" "main" "" "luci-app-dockerman luci-app-ddnsto nps luci-app-nps"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 #更新软件包版本
