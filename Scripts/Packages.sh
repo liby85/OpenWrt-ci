@@ -47,9 +47,9 @@ UPDATE_PACKAGE() {
 # UPDATE_PACKAGE "包名" "项目地址" "项目分支" "pkg/name，可选，pkg为从大杂烩中单独提取包名插件；name为重命名为包名"
 #UPDATE_PACKAGE "nps" "feifan1113/luci-app-nps" "main"
 UPDATE_PACKAGE "luci-app-npc" "yufan666/luci-app-npc" "master"
-UPDATE_PACKAGE "nas-packages" "linkease/nas-packages" "master"
-UPDATE_PACKAGE "ddnsto" "linkease/nas-packages-luci" "main" "pkg"
-UPDATE_PACKAGE "luci-app-ddnsto" "rufengsuixing/luci-app-adguardhome" "master" "pkg"
+UPDATE_PACKAGE "ddnsto" "linkease/nas-packages" "master" "pkg"
+UPDATE_PACKAGE "luci-app-ddnsto" "linkease/nas-packages-luci" "main" "pkg"
+UPDATE_PACKAGE "luci-app-adguardhome" "rufengsuixing/luci-app-adguardhome" "master"
 
 UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-24.10"
 UPDATE_PACKAGE "theme-kucat" "sirpdboy/luci-theme-kucat" "js"
