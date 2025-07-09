@@ -48,8 +48,8 @@ UPDATE_PACKAGE() {
 #UPDATE_PACKAGE "nps" "feifan1113/luci-app-nps" "main"
 UPDATE_PACKAGE "luci-app-npc" "yufan666/luci-app-npc" "master"
 UPDATE_PACKAGE "nas-packages" "linkease/nas-packages" "master"
-UPDATE_PACKAGE "nas-packages-luci" "linkease/nas-packages-luci" "main"
-UPDATE_PACKAGE "luci-app-adguardhome" "rufengsuixing/luci-app-adguardhome" "master"
+UPDATE_PACKAGE "ddnsto" "linkease/nas-packages-luci" "main" "pkg"
+UPDATE_PACKAGE "luci-app-ddnsto" "rufengsuixing/luci-app-adguardhome" "master" "pkg"
 
 UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-24.10"
 UPDATE_PACKAGE "theme-kucat" "sirpdboy/luci-theme-kucat" "js"
