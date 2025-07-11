@@ -48,7 +48,7 @@ UPDATE_PACKAGE() {
 
 UPDATE_PACKAGE "ddnsto" "linkease/nas-packages" "master" "pkg"
 UPDATE_PACKAGE "luci-app-ddnsto" "linkease/nas-packages-luci" "main" "pkg"
-UPDATE_PACKAGE "luci-app-adguardhome" "rufengsuixing/luci-app-adguardhome" "master"
+#UPDATE_PACKAGE "luci-app-adguardhome" "rufengsuixing/luci-app-adguardhome" "master"
 
 UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-24.10"
 UPDATE_PACKAGE "theme-kucat" "sirpdboy/luci-theme-kucat" "js"
